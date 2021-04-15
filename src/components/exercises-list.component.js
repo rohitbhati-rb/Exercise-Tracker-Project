@@ -51,15 +51,15 @@ export default class ExercisesList extends Component {
   render() {
     return (
       <div>
-        <h3>Logged Exercises</h3>
+        <h4>Logged Exercises</h4>
         <table className="table">
           <thead className="thead-light">
             <tr>
-              <th>Username</th>
-              <th>Description</th>
-              <th>Duration</th>
-              <th>Date</th>
-              <th>Actions</th>
+              <th className="table-head">Username</th>
+              <th className="table-head">Description</th>
+              <th className="table-head">Duration</th>
+              <th className="table-head">Date</th>
+              <th className="table-head">Actions</th>
             </tr>
           </thead>
           <tbody>
